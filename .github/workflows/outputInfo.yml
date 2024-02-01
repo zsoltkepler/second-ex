@@ -1,0 +1,8 @@
+name: Outputting info
+on: issues
+jobs: 
+  info-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output event depails
+        run: echo "${{ toJson(github.event)}}"
