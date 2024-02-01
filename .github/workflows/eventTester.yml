@@ -1,4 +1,4 @@
-name: Outputting info
+name: Event tester
 on: 
   pull_request: 
     types: [opened, edited]
